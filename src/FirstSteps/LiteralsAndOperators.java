@@ -22,11 +22,17 @@ public class LiteralsAndOperators {
         int myIntMin = Integer.MIN_VALUE;
         System.out.println("Max int value = " + myIntMax);
         System.out.println("Min int value = " + myIntMin);
+        // this is called overflow and underflow
         System.out.println("Busted max int value = " + (myIntMax + 1));
         System.out.println("Busted min int value = " + (myIntMin - 1));
 
         int newNumberFormat = 2_14_74_83_647;
         System.out.println(newNumberFormat);
+        
+
+        
+        
+        
 
     }
 }
