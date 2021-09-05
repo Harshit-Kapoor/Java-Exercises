@@ -17,5 +17,16 @@ public class Operators {
 
         int newRes = result%3;
         System.out.println(newRes);
+
+        int sum = 9;
+        sum++;
+        System.out.println(sum);
+        sum--;
+        System.out.println(sum);
+
+        sum = sum++;
+        System.out.println(sum);
+        sum--;
+        System.out.println(sum);
     }
 }
